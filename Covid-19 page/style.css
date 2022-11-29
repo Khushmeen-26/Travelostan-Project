@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    color:black;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+nav{
+    background:white;
+    padding:10px 40px 10px 70px;
+
+    border-left: ;
+    border-right:;
+    box-shadow: 20px 20px 50px #E8E8E8;
+    position:sticky;
+    
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+nav ul li.logo{
+    flex:1;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+nav ul div.items {
+    padding: 0 25px;
+    display: inline-flex;
+  
+    
+    
+}
+nav ul div.items a{
+    text-decoration: none;
+    font-size:18px;
+    padding:0 12px;
+    font-weight: 600;
+    color: black;
+}
+nav ul div.items a:hover{
+    color:hotpink;
+}
+nav ul .search-icon{
+    height: 40px;
+    width:240px;
+    display: flex;
+    background: #E8E8E8;
+    border-radius: 5px;
+}
+nav ul .search-icon input{
+    height: 100%;
+    width: 200px;
+    border: 3px solid black;
+    outline: none;
+    padding: 0 10px;
+    color:#000;
+    background: #E8E8E8;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+        
+}
+nav ul .search-icon .icon{
+    height:100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 2px;
+    
+    border: 3px solid black;
+    border-radius: 0 5px 5px 0;
+    
+    
+}
+nav ul .search-icon .icon:hover{
+    background: #e6e6e6;
+}
+nav ul .search-icon .icon span{
+    color:#222222;
+    font-size:18px;
+}
+@media screen and (max-width :1052px ){
+    nav{
+        padding: 10px 40px 10px 0px;}
+            nav ul li.logo{
+                display:none;
+        }
+    nav ul div.items{
+        flex: 4;
+    }
+    }
+
+.main-page{
+    background-image: url("https://philanthropynw.org/sites/default/files/styles/news_16x9__1920x1080/public/content_images/news/ResourceHub_BlogImage_1920x1080px.jpg?itok=o87wEo9P");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 900px;
+    margin:20px 10px 0px 10px;
+    padding:0;
+    display:flex;
+    align-items: center;
+}
+.main-content{
+    margin-left: 200px;
+    
+}
+#title{
+    margin-bottom: -3px;
+    font-weight: bolder;
+    color:red
+}
+#title-1{
+    font-weight: bolder;
+    font-size: 80;
+    color:black;
+}
+#para{
+    font-size: 20px;
+    font-weight:bolder;
+    margin-top: 60px;
+    line-height: 1.7;
+    
+}
+#btn{
+    margin-top: 40px;
+    font-size: 30px;
+    
+    
+}
+.donate{
+    height: 200px;
+    margin:20px 10px 10px 10px;
+    background-color:#e7e7f8;
+    display:flex;
+    padding:20px;
+    justify-content: center;
+}
+#ha{
+    font-size: 60px;
+    font-weight: bolder
+}
+#b1{
+    font-size: 40px;
+}
+.protection-page{
+    background-color:#fff2f6; 
+   
+    height: 2100px;
+    margin:20px 10px 0px 10px;
+    padding:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-container{
+    height:2200px;
+    width:600px;
+    padding:50px;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.box-container1{
+    height:2200px;
+    width:600px;
+    padding:10px;
+   
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+   
+    display: ;
+    justify-content: center;
+    align-content: center;
+    margin-top: -100;
+}
+#head{
+    font-size:70px;
+    font-weight: bolder;
+    color:darkblue
+    
+}
+#para1{
+    font-size:20px;
+    font-weight: 700;
+    color:grey;
+    margin-top: 30px;
+    
+}
+#head1{
+    font-size:70px;
+    font-weight: bolder;
+    color:darkblue;
+    
+    
+}
+#para2{
+     font-size:20px;
+    font-weight: 700;
+    color:grey;
+    margin-top: 20px;
+    
+}
+.box2{
+    
+    margin-top: 100;
+    
+}
+.box3{
+    height: 800px;
+    width:400px;
+    
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box4{
+    height: 800px;
+    width:500px;
+  
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding:160px 0 300px 0 ;
+    
+}
+.how-img{
+    height:200px;
+    width: 303px;
+    box-shadow: 5px 10px 5px #888888;
+    margin:8px;
+    
+}
+
+.DD{
+    height:100%;
+    width:35px;
+    margin-left:px;
+    background-color:black;
+    color:white;
+    display:;
+}
+.p{
+    display:;
+    width:369;
+    font-size: 25px;
+}
+.dropD{
+    height:40px;
+    width:400px;
+    border:2px solid black;
+    display:flex;
+    
+    
+    
+    
+}
+#footer{
+    height:300px;
+    background-color: black;
+    margin-top: 10px ;
+    padding:50px 0;
+}
+.container{
+    max-width:1500px;
+    background-color: black;
+    margin:-65px ;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    height: 260px;
+   
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width:25%;
+    padding: 0 20px;
+}
+.footer-col h4{
+    font-size:18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight:500;
+    position: relative;
+    
+}
+.footer-col h4::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    background-color:#e91e63;
+    height:2px;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size:16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:300;
+    color:#bbbbbb;
+    display:block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left:10px;
+}
+
+.footer-col .s-links a{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align:center;
+    padding-top: 5px;
+    line-height: 40px;
+    border-radius: 0;
+    
+    transition:all 0.5s ease;
+    
+}
+.footer-col .s-links a:hover{
+    
+    background-color:aqua;
+}
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width:100%;
+     
+    }
+}
+
+

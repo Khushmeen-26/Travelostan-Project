@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    color:black;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+nav{
+    background:white;
+    padding:10px 40px 10px 70px;
+
+    border-left: ;
+    border-right:;
+    box-shadow: 20px 20px 50px #E8E8E8;
+    position:sticky;
+    
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+nav ul li.logo{
+    flex:1;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav ul div.items {
+    padding: 0 25px;
+    display: inline-flex;
+  
+    
+    
+}
+nav ul div.items a{
+    text-decoration: none;
+    font-size:18px;
+    padding:0 12px;
+    font-weight: 600;
+    color: black;
+}
+nav ul div.items a:hover{
+    color:hotpink;
+}
+nav ul .search-icon{
+    height: 40px;
+    width:240px;
+    display: flex;
+    background: #E8E8E8;
+    border-radius: 5px;
+}
+nav ul .search-icon input{
+    height: 100%;
+    width: 200px;
+    border: 3px solid black;
+    outline: none;
+    padding: 0 10px;
+    color:#000;
+    background: #E8E8E8;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+        
+}
+nav ul .search-icon .icon{
+    height:100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 3px;
+    border: 3px solid black;
+    border-radius: 0 5px 5px 0;
+    
+    
+}
+nav ul .search-icon .icon:hover{
+    background: #e6e6e6;
+}
+nav ul .search-icon .icon span{
+    color:#222222;
+    font-size:18px;
+}
+@media screen and (max-width :1052px ){
+    nav{
+        padding: 10px 40px 10px 0px;}
+            nav ul li.logo{
+                display:none;
+        }
+    nav ul div.items{
+        flex: 4;
+    }
+    }
+
+
+.package-1{
+    background-image: url("https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 900px;
+    margin:20px 10px 0px 10px;
+    padding:0;
+    display:flex;
+    
+    align-items: center;
+    
+   
+    
+
+}
+
+#name{
+    font-size:8rem;
+    color:hotpink;
+    margin-top: -150px;
+    margin-left:50px;
+}
+#para{
+    font-size: 5rem;
+    color:#ffffff;
+    margin-top: -35px;
+    margin-left: 66px;
+}
+
+.choose{
+    background-image: url("https://images.pexels.com/photos/615060/pexels-photo-615060.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 800px;
+    margin:10px 10px 0px 10px;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.packs-container{
+    height: 700px;
+    width:1600px;
+
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.packs{
+    height:250px;
+    width:375px;
+    margin:30px;
+    
+    transition:all 0.5s ease;
+    
+    
+}
+.packs:hover{
+    height:300px;
+    width:430px;
+    
+}
+#pac-1{
+    background-image: url("solo.jpg");
+     background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+}
+#pac-2{
+    background-image: url("Couple.jpg");
+       background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+
+}
+
+#pac-3{
+    background-image: url("Family.jpg");
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#pac-4{
+    background-image: url("honeymoon.jpg");
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#pac-5{
+    background-image: url("Coustamized.jpg");
+       background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*footer*/
+#footer{
+    height:300px;
+    background-color: black;
+    margin-top: 10px ;
+    padding:50px 0;
+}
+.container{
+    max-width:1500px;
+    background-color: black;
+    margin:-65px ;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    height: 260px;
+   
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width:25%;
+    padding: 0 20px;
+}
+.footer-col h4{
+    font-size:18px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight:500;
+    position: relative;
+    
+}
+.footer-col h4::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    background-color:#e91e63;
+    height:2px;
+    box-sizing: border-box;
+    width: 80px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size:16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight:300;
+    color:#bbbbbb;
+    display:block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left:10px;
+}
+
+.footer-col .s-links a{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align:center;
+    padding-top: 5px;
+    line-height: 40px;
+    border-radius: ;
+    
+    transition:all 0.5s ease;
+    
+}
+.footer-col .s-links a:hover{
+    
+    background-color:aqua;
+}
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px){
+    .footer-col{
+        width:100%;
+     
+    }
+}
